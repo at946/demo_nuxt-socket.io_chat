@@ -13,4 +13,5 @@ $ docker-compose up
 ```
 
 You can use the real-time chat application at `http://localhost:3000/chat/:room_id`.(e.g. `http://localhost:3000/chat/1`, `http://localhost:3000/chat/2`, etc.)
+
 Users accessing the same room_id can exchange messages, but users accessing a different room_id can't exchange messages.
