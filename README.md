@@ -1,20 +1,13 @@
 # chat
+This repository is realtime chat demo app with nuxt.js and socket.io.
+The details are written on Qiita.
 
 ## Build Setup
 
 ```bash
-# install dependencies
-$ yarn install
+# build docker image
+$ docker-compose build
 
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+# start docker container
+$ docker-compose up
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
